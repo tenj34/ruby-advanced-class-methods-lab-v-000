@@ -11,10 +11,8 @@ class Song
   end
 
   def self.create
-    def initialize(name)
       @name = name
       @@all << self
-    end
   end
 
 end
