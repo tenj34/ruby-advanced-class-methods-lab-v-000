@@ -10,9 +10,9 @@ class Song
     self.class.all << self
   end
 
-  def create
-      @name = name
-      @@all << self
-  end
+  def initialized(name)
+
+    @name = name
+    @all << self
 
 end
