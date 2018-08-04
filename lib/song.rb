@@ -22,7 +22,7 @@ class Song
     song
   end
 
-  def destroy_all
+  def selfdestroy_all
     self.class.all.clear
   end
 end
