@@ -11,18 +11,5 @@ class Song
   end
 
   def self.create
-    song = self.new
-    song.save
-    song
-  end
 
-  def self.create_by_name(name)
-    song.self.create
-    song.name = name
-    song
-  end
-
-  def self.destroy_all
-    self.class.all.clear
-  end
 end
