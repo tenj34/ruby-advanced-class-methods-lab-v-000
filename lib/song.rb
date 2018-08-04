@@ -12,4 +12,7 @@ class Song
 
   def self.create
     @name = name
+
+  end
+  
 end
